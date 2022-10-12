@@ -17,8 +17,8 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-//test changes
 #include "main.h"
+
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "LPS25HB.h"
@@ -110,8 +110,8 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  MX_ADC_Init();
   MX_GPIO_Init();
+  MX_ADC_Init();
   MX_I2C2_Init();
   MX_SPI1_Init();
   MX_USART2_UART_Init();
